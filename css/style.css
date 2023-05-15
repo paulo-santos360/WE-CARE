@@ -1,5 +1,27 @@
-*{
-    padding: 0;
-    margin: 0;
-    list-style: none;
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+nav
+
+ul {
+  display: flex;
+}
+
+ul li {
+  padding: 10px;
+}
+
+button {
+    position: relative;
+    Width: 130px;
+    Height: 41px;
+    border-radius: 20.5px;
+    background-color: #665AE1;
+    color: #fff;
+    
 }
