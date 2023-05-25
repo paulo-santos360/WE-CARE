@@ -19,6 +19,11 @@ ul li {
   padding: 24px 10px;
 }
 
+ul li a{
+  color: #848484;
+  font-size: 20px;
+}
+
 button {
     position: relative;
     Width: 130px;
@@ -76,11 +81,18 @@ p{
 }
 
 @media (min-width: 390px) and (max-width: 844px){
+  ul li{
+    font-size: 12px;
+    padding: 24px 4px;
+  }
+  button{
+    margin-left: 9px;
+  }
   .container{
     display: block;
   }
   img{
-    width: 387px;
+    width: 349px;
   }
   h1{
     font-size: 67px;
@@ -88,6 +100,10 @@ p{
   h2{
     font-size: 35px;
     line-height: 38px;
+  }
+  p{
+    width: 392px;
+    font-size: 19px;
   }
   .btn{
     margin-top: -20px;
