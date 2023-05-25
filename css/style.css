@@ -27,4 +27,69 @@ button {
     background-color: #665AE1;
     color: #fff;
     margin-top: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+.container{
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+h1{
+  font-weight: 900;
+  font-size: 100px;
+  line-height: 122px;
+  color: #515151;
+}
+
+h2{
+  font-weight: 500;
+  font-size: 58px;
+  line-height: 71px;
+}
+
+p{
+  width: 480px;
+  font-weight: 480;
+  font-size: 24px;
+  line-height: 29px;
+  color: #848484;
+  margin-top: 32px;
+  margin-bottom: 65px;
+}
+
+.btn{
+  background-color: #ADFF00;
+  border-radius: 30PX;
+  width: 239px;
+  height: 64px;
+  border: none;
+  cursor: pointer;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 34px;
+  color: #000000;
+}
+
+@media (min-width: 390px) and (max-width: 844px){
+  .container{
+    display: block;
+  }
+  img{
+    width: 387px;
+  }
+  h1{
+    font-size: 67px;
+  }
+  h2{
+    font-size: 35px;
+    line-height: 38px;
+  }
+  .btn{
+    margin-top: -20px;
+  }
 }
